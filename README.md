@@ -23,9 +23,14 @@ The goal of this project is to showcase modern Lakehouse development practices, 
 - Data quality validation performed.
 
 ### Gold Layer
-- Business-ready datasets created for analytics.
-- Aggregations and reporting tables generated.
-- Supports trend analysis of baby names over time.
+The Gold layer provides business-ready datasets for reporting and analysis:
+
+- Total births by year
+- Total births by gender and year
+- Top 10 baby names by year
+- Most popular baby names across all years
+
+These datasets support trend analysis, reporting, and downstream visualization tools.
 
 ---
 
