@@ -1,8 +1,18 @@
 # Databricks notebook source
 # MAGIC %md
-# MAGIC #Baby names
+# MAGIC #Baby Names Lakehouse: Bronze to Gold with Databricks
 
 # COMMAND ----------
+
+"""
+Project: Baby Names Lakehouse with Databricks
+
+Layer: Bronze
+
+Description:
+Ingest raw US Baby Names data from Databricks Volumes,
+capture source metadata, and store the data in a Delta Lake Bronze table.
+"""
 
 # to Check what storage is available
 display(dbutils.fs.ls("/"))
@@ -105,3 +115,8 @@ bronze_df.write \
 # MAGIC -- row count
 # MAGIC SELECT COUNT(*) AS total_records
 # MAGIC FROM workspace.default.bronze_baby_names;
+
+# COMMAND ----------
+
+# Check distinct files loaded
+bronze_df.select("source_file").distinct().show(truncate=False)
