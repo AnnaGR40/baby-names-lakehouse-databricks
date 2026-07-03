@@ -16,6 +16,9 @@ The goal of this project is to showcase modern Lakehouse development practices, 
 - Minimal transformations applied.
 - Metadata captured for lineage and auditing.
 
+  <img width="1913" height="904" alt="image" src="https://github.com/user-attachments/assets/7a99ab88-6e34-47ea-b3fe-ff1484dd6deb" />
+
+
 ### Silver Layer
 - Data cleansing and standardization.
 - Column renaming and schema enforcement.
