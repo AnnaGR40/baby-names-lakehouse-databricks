@@ -1,4 +1,4 @@
-# Baby Names Lakehouse with Databricks
+# Baby Names Lakehouse: Bronze to Gold with Databricks
 
 ## Overview
 
