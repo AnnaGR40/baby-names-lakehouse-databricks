@@ -79,6 +79,25 @@ Jacob,M,24210
 
 ---
 
+## Visualizations
+
+### Total Births by Year
+
+screenshots/total_births_by_year.png
+
+### Male vs Female Naming Trends
+
+screenshots/gender_trends.png
+
+### Top Baby Names (2015)
+
+screenshots/top_names_2015.png
+
+### Most Popular Names Across All Years
+
+screenshots/top_names_all_time.png
+
+
 ## Project Structure
 
 ```text
