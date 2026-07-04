@@ -158,14 +158,13 @@ Examples of analysis performed:
 
 Example SQL query:
 
-```sql
+%sql
 SELECT
     year,
     COUNT(*) AS total_names
 FROM silver_baby_names
 GROUP BY year
 ORDER BY year;
-```
 
 ---
 
