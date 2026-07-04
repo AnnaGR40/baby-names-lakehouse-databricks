@@ -157,6 +157,7 @@ Examples of analysis performed:
 - Year-over-year comparisons
 
 Example SQL query:
+```text
 
 %sql
 SELECT
@@ -165,6 +166,7 @@ SELECT
 FROM silver_baby_names
 GROUP BY year
 ORDER BY year;
+```
 
 ---
 
