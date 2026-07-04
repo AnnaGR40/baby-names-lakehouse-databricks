@@ -157,8 +157,8 @@ Examples of analysis performed:
 - Year-over-year comparisons
 
 Example SQL query:
-```text
 
+```text
 %sql
 SELECT
     year,
