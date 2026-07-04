@@ -165,7 +165,7 @@ SELECT
 FROM silver_baby_names
 GROUP BY year
 ORDER BY year;
-*``
+```
 
 ---
 
