@@ -162,7 +162,7 @@ Example SQL query:
 SELECT
     year,
     COUNT(*) AS total_names
-FROM silver_baby_*ames
+FROM silver_baby_names
 GROUP BY year
 ORDER BY year;
 *``
@@ -171,29 +171,29 @@ ORDER BY year;
 
 ## Learning Outcomes
 
-Thr*ugh this project I gained hands-on*experience with:
+Through this project I gained hands-on experience with:
 
-- Databricks Lak*house architecture
-- Unity Catalog*and Volumes
-- Reading and transfor*ing data with PySpark
-- Delta Lake*table creation
-- Spark SQL analyti*s
-- Medallion Architecture design *atterns
-- GitHub project documenta*ion and version control
-
----
-
-## F*ture Enhancements
-
-- Implement Aut* Loader for incremental ingestion
-* Create Delta Live Tables pipeline*- Build interactive dashboards
-- A*d data quality monitoring
-- Automa*e pipeline orchestration
+- Databricks Lakehouse architecture
+- Unity Catalog and Volumes
+- Reading and transforming data with PySpark
+- Delta Lake table creation
+- Spark SQL analytics
+- Medallion Architecture design patterns
+- GitHub project documentation and version control
 
 ---
 
-## *uthor
+## Future Enhancements
+
+- Implement Auto Loader for incremental ingestion
+- Create Delta Live Tables pipeline - Build interactive dashboards
+- Add data quality monitoring
+- Automate pipeline orchestration
+
+---
+
+## Author
 
 **Anna Grigoriadi**
 
-Data E*gineer Apprentice with a passion f*r building scalable data solutions*using Databricks, Microsoft Fabric* Azure, Spark, and modern Lakehous* architectures.
+Data Engineer with a passion for building scalable data solutions using Databricks, Microsoft Fabric, Azure, Spark, and modern Lakehouse architectures.
